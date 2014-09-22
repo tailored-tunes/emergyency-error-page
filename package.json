@@ -1,0 +1,13 @@
+{
+	"name": "emergency-error-pages",
+	"version": "0.0.1",
+	"description": "Tailored Tunes 5xx pages",
+	"repository": {
+		"type": "git",
+		"url": "http://github.com/tailored-tunes/emergency-error-page.git"
+	},
+	"scripts": {
+		"install": ""
+	}
+}
+

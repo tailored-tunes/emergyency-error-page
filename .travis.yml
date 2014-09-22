@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+- '0.11'
+install:
+- npm install
+deploy:
+  provider: s3
+  bucket: tatu-error-pages
+  secret_access_key:
+    secure: KGf0MFVfQq8cOAx4DNWmwYPNh3wIWqiStA0zq+OpxFmGurV+mmpkRFFHjo47xipeSLlrM6ep7RaG9cFXA2Y0oFwth27mvY8mxozVzg5ED8SGdGMRcxBt3DXAzg4pwuFJ5AURFtvTvFORT/2fzoLqIT3Bb+ISEsKTtBGmpzVuzUI=
+  accessP_key_id:
+    secure: IkCnx1Vt8hFDE495sgzDLZOSCFUZjiFTYB7tNZtwTkjJWqhoh1TZ76CLru6Y4vR2384kkQfNIBViYPfm0L1haylNiSw5Zpfp0/GGZu7bLyVedTmsWAkks2MKoE2doyuhSpYa2BEtbHCH4fu3/gZxgrp/i+JQy3Pl1iFx09rjXRM=
